@@ -16,7 +16,7 @@ const Success = ({ flag }) => {
       <SuccessMessage />
       <audio ref={audioRef} loop>
         <source
-          src="src/assets/Leonard Cohen - Suzanne (Audio).mp3"
+          src="/images/Leonard Cohen - Suzanne (Audio).mp3"
           type="audio/mpeg"
         />
         Your browser does not support the audio element.
