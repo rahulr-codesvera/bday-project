@@ -13,7 +13,7 @@ const SuccessMessage = () => {
           You are
         </h1>
         <h1 className="nineteen">19</h1>
-        <img className="cake__one" src="src/assets/cake.gif" alt="cake" />
+        <img className="cake__one" src="/assets/cake.gif" alt="cake" />
         <a href="#section_two">
           <p className="scroll__down">Click here, please!😌</p>
         </a>
