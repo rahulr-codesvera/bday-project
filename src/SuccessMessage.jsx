@@ -26,7 +26,7 @@ const SuccessMessage = () => {
           Thank you for being a wonderful human being.
         </h2>
         <a href="#section_three" className="link_of__the__link">
-          <p className="scroll__down">Click here, please!😌</p>
+          <p className="scroll__down">Click once more, please!😌</p>
         </a>
       </div>
       <div className="section__three" id="section_three">
