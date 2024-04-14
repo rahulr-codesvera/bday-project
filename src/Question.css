@@ -1,0 +1,86 @@
+.question__container {
+  height: 100vh;
+  background: linear-gradient(24deg, #9504c3, #e18923);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 4s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 46%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+  100% {
+    background-position: 0% 46%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 46%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+  100% {
+    background-position: 0% 46%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 46%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+  100% {
+    background-position: 0% 46%;
+  }
+}
+
+.question {
+  font-family: var(--FONT-FAMILY);
+  color: whitesmoke;
+}
+
+input {
+  padding: 10px 10px;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  font-family: var(--FONT-FAMILY);
+  color: white;
+  font-size: 3rem;
+}
+
+.submit__btn {
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: var(--FONT-FAMILY);
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 110, 255);
+  cursor: pointer;
+}
+
+.submit__btn:hover {
+  background-color: rgb(0, 30, 255);
+}
