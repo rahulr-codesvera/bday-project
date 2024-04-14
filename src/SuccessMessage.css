@@ -59,6 +59,7 @@
 .last {
   text-align: center;
   color: white;
+  line-height: 1.5;
   font-family: var(--FONT-FAMILY);
   animation: slide-up 2s ease forwards, fade 2s ease forwards;
 }
@@ -81,7 +82,8 @@
   }
 }
 
-.section__two {
+.section__two,
+.section__three {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -109,4 +111,8 @@ a {
   100% {
     transform: translateY(0);
   }
+}
+
+.link_of__the__link {
+  margin-top: 200px;
 }
