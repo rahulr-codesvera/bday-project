@@ -33,12 +33,7 @@ const SuccessMessage = () => {
         <h2 className="bday">
           I wish I was there to celebrate with you.
           <br />
-          Still, I'm so happy that I could spend your
-          <br />
-          birthday night, talking to you.
-          <br />
-          <br />
-          Knowing that you're happy makes me happy too.
+          But, knowing that you're happy makes me happy too.
           <br />
           Once again, wishing you the happiest of birthdays!😌
         </h2>
