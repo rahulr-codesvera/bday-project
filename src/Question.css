@@ -88,6 +88,7 @@ h1 {
 .typewriter {
   color: white;
   font-family: var(--FONT-FAMILY);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 800;
+  text-align: center;
 }
