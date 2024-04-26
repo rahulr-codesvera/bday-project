@@ -31,7 +31,11 @@ const SuccessMessage = () => {
       </div>
       <div className="section__three" id="section_three">
         <h2 className="bday">
-          I wish I was there to celebrate with you.
+          I've never had a friend like you in my life.
+          <br />
+          You are full of surprises!
+          <br />
+          I wish I was there with you to celebrate your b'day.
           <br />
           But, knowing that you're happy makes me happy too.
           <br />
